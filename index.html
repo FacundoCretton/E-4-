@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo Mundo S.A v. 0.1</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
 </head>
 <body>
 <header>
@@ -20,6 +21,10 @@
 
     </ul>
     <img src="./assets/img/Carrito.png" alt="Carrito de compras" class="carrito">
+    <!-- cart -->
+    
+    </div>
+    </div>
 
   </nav>
     
@@ -35,10 +40,10 @@
                 Nuestro servicio de primer nivel y con la mas alta tecnologia, llega para darle un lavado
                 de cara al sector. Encontra nivel, confort... <span>encontra un hogar</span>
             </p>
-            <ul class="hero-list">
-                <li><a href="#">NUestro Contacto</a></li>
-                <li><a href="#">Más Información</a></li>
-            </ul>
+            <div class="hero-button">
+                <a href="#" class="boton1">Nuestro Contacto</a>
+                <a href="#" class="boton2">Más Información</a>
+            </div>
 
         </div>
         <div class="hero-card">
@@ -71,8 +76,7 @@
             En Nuevo Mundo consideramos que cada proyecto es unico, ya que estamos fabricando un hogar
             y nos tomamos nuestra tarea muy en serio.Tenemos un equipo altamente cualificado que en 
             cada obra deja nuestro sello de garantia.
-            Ademas estamos comprometidos con el cuidado del medio ambiente, como prueba de esto elegimos
-            a bulbasaur como pokemon inicial.
+
         </p>
         </div>
 
@@ -84,11 +88,86 @@
    
 
   </div>
+  <section id="cards">
+    <h2>¿Por que contratar con nosotros?</h2>
+    <h3>Nuestra empresa quiere decirte algo</h3>
+    <div class="info-cards-container">
+      <div class="info-card">
+        <img src="./assets/img/cards/card-1.png" alt="Icono Global" />
+        <h3>Reconocimiento</h3>
+        <p>
+            Nuestra marca es reconocida globalmente, lo cual avala nuestro trabajo.
+         </p>
+      </div>
+      <div class="info-card">
+        <img src="./assets/img/cards/card-2.png" alt="Icono Calidad" />
+        <h3>Calidad</h3>
+        <p>
+            Usamos materiales de la mas alta calidad que te aseguran un hogar para toda la vida
+
+        </p>
+      </div>
+      <div class="info-card">
+        <img src="./assets/img/cards/card-3.png" alt="Plazos" />
+        <h3>Plazos</h3>
+        <p>
+           Sabemos que el tiempo es importante y por ello contamos con un plazo de 5 semanas para finalizar cada proyecto. 
+           Ese es nuestro objetivo para con vos
+        </p>
+      </div>
+      
+    </div>
+  </section>
 
 </main>
 
-
-
+<footer>
+  <section id="footer-contact">
+  <div class="main-footer">
+    <div class="contacto">
+      <h2>Contactos</h2>
+      <div class="content-box">
+        <div class="Lugar">
+          <img src="./assets/img/Contacto/Ubicacion.png" alt="lugar">
+          <span class="texto">Recoleta, Buenos Aires</span>
+        </div>
+        <div class="Telefono">
+          <img src="./assets/img/Contacto/telefono.png" alt="telefono">
+          <span class="texto">+911557834</span>
+        </div>
+        <div class="email">
+          <img src="./assets/img/Contacto/email.png" alt="email>"
+          <span class="text">Contacto@nuevomundo.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-box">
+    
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Mensaje *</div>
+            <textarea rows="2" cols="25" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section id="pie-de-pagina">
+    
+    <h3>Nuevo Mundo S.A | </h3>
+    <span class="copyright"></span><span> 2022 Todos los derechos reservados.</span>
+  
+  </section>
+</footer>
  
     
 
